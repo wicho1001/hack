@@ -1,0 +1,10 @@
+<section class="">
+  <div class="w-5/6 mx-auto text-3xl font-bold">
+    Hola, bienvenido al api de rick y morty
+  </div>
+  <section class="mt-10 bg-steel-900">
+    <div class="w-5/6 mx-auto grid xs:grid-cols-1 md:grid-cols-2 gap-6 px-6 py-10">
+      <app-card class="col-span-1" *ngFor="let character of characters" [character]="character"></app-card>
+    </div>
+  </section>
+</section>
